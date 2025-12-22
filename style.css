@@ -79,12 +79,18 @@ footer {
     section button:hover {
         background-color: #956f55;
         box-shadow: 4px 4px 1px 1px black;
+        text-shadow: 1px 1px white;
         border-color: black;
         cursor: pointer;
+        color: #161716;
     }
 
-    footer {
-        font-size: 1.25em;
+    footer .sub-heading {
+        font-size: 1.75em;
+    }
+
+    footer .copy {
+        font-size: 1em;
     }
 
     
