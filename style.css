@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Germania One", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    width: 65%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section button {
+    background-color: #161716;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    font-size: 1.5em;
+    width: 100%;
+    transition: 0.2s;
+    border: 1px solid transparent;
+    box-sizing: border-box;        
+   
+}
+
+section a {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 1em;
+    color: #161716
+}
+
+@media screen and (min-width: 768px) {
+    nav img {
+        width: 30%;
+    }
+
+    section {
+        width: 40%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section a {
+        width: 70%;
+        margin: 0 10px;
+    }
+
+    section button:hover {
+        background-color: #956f55;
+        box-shadow: 4px 4px 1px 1px black;
+        border-color: black;
+        cursor: pointer;
+    }
+
+    footer {
+        font-size: 1.25em;
+    }
+
+    
+}
+
